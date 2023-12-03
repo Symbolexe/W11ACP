@@ -1,5 +1,7 @@
 # W11ACP
 ⚠️ **In this README.md file, we will check how to activate Windows 11 and 10 for free.** ⚠️
+
+⚠️ In the *releases* section, you can download the **execution file** of these commands. Make sure to run the file with **admin** permission. ⚠️
 # Requirements
 1. Be sure to be connected to the Internet. ✔️
 2. Make sure you have one of the versions of Windows listed below. ✔️
