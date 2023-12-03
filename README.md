@@ -19,6 +19,7 @@ open **CMD** as Administrator
 ![Screenshot (1)](https://github.com/Symbolexe/W11ACP/assets/140549630/a27dc27a-a2c2-4680-b75b-230183c50acb)
 ## Second Step
 In order, one by one, **copy** these commands and **paste** them in the **cmd**.
+
 `slmgr.vbs /upk`
 
 `slmgr.vbs /cpky`
