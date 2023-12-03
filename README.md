@@ -20,27 +20,27 @@ open **CMD** as Administrator
 ## Second Step
 In order, one by one, **copy** these commands and **paste** them in the **cmd**.
 
-`slmgr.vbs /upk`
+`slmgr.vbs /upk` : Uninstalls the current product key.
 
-`slmgr.vbs /cpky`
+`slmgr.vbs /cpky` : Clears the current product key from the license database.
 
-`slmgr.vbs /ckms`
+`slmgr.vbs /ckms` : Clears the Windows activation servers of the current product key.
 
-`DISM /online /Get-TargetEditions`
+`DISM /online /Get-TargetEditions` : Lists the different Windows editions available for activation.
 
 👉 : If you see "Professional" in the list, then you can upgrade your Windows edition to Pro for free! ✔️
 
-`sc config LicenseManager start= auto & net start LicenseManager`
+`sc config LicenseManager start= auto & net start LicenseManager` : Set the start type of the LicenseManager service to "automatic" and then start the service. This command will ensure that the LicenseManager service is running and starts after boot.
 
-`sc config wuauserv start= auto & net start wuauserv`
+`sc config wuauserv start= auto & net start wuauserv` : Start type of the Windows Update service to "automatic" and then starts the service. This command will ensure that the Windows Update service is running and starts after boot.
 
-`changepk.exe /productkey VK7JG-NPHTM-C97JM-9MPGT-3V66T`
+`changepk.exe /productkey VK7JG-NPHTM-C97JM-9MPGT-3V66T` : Change the product key 
 
-`slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX`
+`slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX` : Install a product key, activating the Windows operating system
 
-`slmgr /skms kms8.msguides.com`
+`slmgr /skms kms8.msguides.com` : Apply a KMS host for Windows activation.
 
-`slmgr /ato`
+`slmgr /ato` : Activate the Windows operating system
 
 ## Final Step
 
